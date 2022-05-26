@@ -13,9 +13,8 @@
         <action
             android:id="@+id/action_homeFragment_to_successFragment"
             app:destination="@id/successFragment"
-            app:enterAnim="@anim/to_bottom"
-            app:exitAnim="@anim/from_top"
-            app:popEnterAnim="@anim/from_top" />
+            app:enterAnim="@anim/from_top"
+            app:popExitAnim="@anim/from_top" />
     </fragment>
     <fragment
         android:id="@+id/successFragment"
@@ -24,6 +23,7 @@
         tools:layout="@layout/fragment_success" >
         <action
             android:id="@+id/action_successFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/to_bottom" />
     </fragment>
 </navigation>

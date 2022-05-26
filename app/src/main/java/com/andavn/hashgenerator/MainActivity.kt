@@ -13,11 +13,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//
-//        val hostFragment = supportFragmentManager.findFragmentById(R.id.navigation) as NavHostFragment
-//        val navController = hostFragment.navController
-//        val navGraph = navController.navInflater.inflate(R.navigation.navigation)
-//        navGraph.setStartDestination(R.id.homeFragment)
-//        navController.graph = navGraph
+
+        val hostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
+        val navController = hostFragment.navController
+        val navGraph = navController.navInflater.inflate(R.navigation.navigation)
+        navController.graph = navGraph
     }
 }

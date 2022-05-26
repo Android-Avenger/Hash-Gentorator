@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.andavn.hashgenerator.databinding.FragmentSuccessBinding
 
 class SuccessFragment : Fragment() {
@@ -18,6 +19,9 @@ class SuccessFragment : Fragment() {
 
         mBinding = FragmentSuccessBinding.inflate(layoutInflater, container, false)
 
+        mBinding.backButton.setOnClickListener {
+            findNavController().navigate(R.id.action_successFragment_to_homeFragment)
+        }
 
 
         return mBinding.root

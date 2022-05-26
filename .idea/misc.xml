@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/check_circle.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/drawable/lock.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout-v28/fragment_home.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
