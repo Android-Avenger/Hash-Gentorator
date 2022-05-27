@@ -7,23 +7,28 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.andavn.hashgenerator.HomeFragment"
+        android:name="com.andavn.hashgenerator.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_successFragment"
             app:destination="@id/successFragment"
-            app:enterAnim="@anim/from_top"
+            app:enterAnim="@anim/to_bottom"
             app:popExitAnim="@anim/from_top" />
     </fragment>
     <fragment
         android:id="@+id/successFragment"
-        android:name="com.andavn.hashgenerator.SuccessFragment"
+        android:name="com.andavn.hashgenerator.fragments.SuccessFragment"
         android:label="fragment_success"
         tools:layout="@layout/fragment_success" >
         <action
             android:id="@+id/action_successFragment_to_homeFragment"
             app:destination="@id/homeFragment"
-            app:enterAnim="@anim/to_bottom" />
+            app:enterAnim="@anim/from_top" />
+        <argument
+            android:name="hash"
+            app:argType="string"
+            android:defaultValue="empty"
+            />
     </fragment>
 </navigation>

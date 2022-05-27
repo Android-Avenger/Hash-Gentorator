@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_Blue_Grey"
-    tools:context=".HomeFragment">
+    tools:context=".fragments.HomeFragment">
 
     <TextView
 
@@ -82,6 +82,9 @@
         android:layout_height="wrap_content"
         android:lines="6"
         android:maxLines="6"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:fontFamily="@font/quicksand_light"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"

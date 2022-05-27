@@ -6,7 +6,7 @@
     <string name="text_here">Text here...</string>
     <string name="sha_256">SHA-256</string>
     <string name="generate">GENERATE</string>
-    <string name="success">Success</string>
+    <string name="hash_code">Converted</string>
     <string-array name="hash_algoriyhm">
         <item>SHA-256</item>
         <item>SHA-512</item>
