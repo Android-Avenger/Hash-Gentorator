@@ -9,22 +9,24 @@
     tools:context=".fragments.SuccessFragment">
 
     <FrameLayout
+
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_height="85dp"
         android:background="#A60D2E4E">
 
         <ImageView
+
             android:id="@+id/back_button"
             android:layout_width="40dp"
             android:layout_height="30dp"
-            android:layout_margin="12dp"
+            android:layout_margin="25dp"
             android:src="@drawable/arrow_back" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/quicksand_light"
+            android:fontFamily="@font/quantico"
             android:gravity="center"
             android:text="@string/hash_code"
             android:textColor="@color/Grey"
@@ -32,7 +34,7 @@
     </FrameLayout>
 <FrameLayout
     android:layout_width="match_parent"
-    android:layout_height="250dp"
+    android:layout_height="270dp"
     android:gravity="center"
     android:layout_gravity="center"
     android:layout_margin="20dp"

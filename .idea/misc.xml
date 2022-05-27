@@ -12,8 +12,9 @@
         <entry key="app/src/main/res/font/quicksand_light.xml" value="0.21487179487179486" />
         <entry key="app/src/main/res/layout-v28/fragment_home.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18854166666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_success.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_success.xml" value="0.2" />
         <entry key="app/src/main/res/layout/hash_menu_textview.xml" value="0.25" />
         <entry key="app/src/main/res/menu/home_menu.xml" value="0.1" />
       </map>
