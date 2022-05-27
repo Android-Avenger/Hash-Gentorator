@@ -100,7 +100,7 @@ class HomeFragment : Fragment() {
 
         mBinding.check.animate().alpha(1f).duration = 1000L
 
-        delay(1500)
+        delay(1000)
 
 
     }
@@ -112,7 +112,6 @@ class HomeFragment : Fragment() {
             message,
             Snackbar.LENGTH_LONG
         )
-            .setAction("Okay") {}
             .setBackgroundTint(resources.getColor(R.color.light_blue))
             .setActionTextColor(resources.getColor(R.color.Grey))
             .show()

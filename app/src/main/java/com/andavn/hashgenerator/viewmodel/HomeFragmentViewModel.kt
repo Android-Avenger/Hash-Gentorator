@@ -1,6 +1,5 @@
 package com.andavn.hashgenerator.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import java.security.MessageDigest
 
@@ -13,6 +12,6 @@ class HomeFragmentViewModel :ViewModel() {
   }
     private fun toHex(byteArray: ByteArray): String{
 
-        return byteArray.joinToString { "%02x".format(it) }
+        return byteArray.joinToString("") { "%x".format(it) }
     }
 }

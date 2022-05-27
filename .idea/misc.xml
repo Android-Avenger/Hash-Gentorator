@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/drawable/check_circle.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/corners.xml" value="0.2046875" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2046875" />
         <entry key="app/src/main/res/drawable/lock.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/font/quantico.xml" value="0.21487179487179486" />
@@ -12,7 +13,7 @@
         <entry key="app/src/main/res/layout-v28/fragment_home.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_success.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_success.xml" value="0.33" />
         <entry key="app/src/main/res/layout/hash_menu_textview.xml" value="0.25" />
         <entry key="app/src/main/res/menu/home_menu.xml" value="0.1" />
       </map>
